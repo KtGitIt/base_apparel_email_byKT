@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Base Apparel coming soon page by KT</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <header class="header">
+        <a href="#"
+          ><img class="logo" src="./images/logo.svg" alt="Base Apparel logo"
+        /></a>
+      </header>
+
+      <!-- Bakground img container -->
+      <div class="hero-image-container"></div>
+
+      <!-- Text section -->
+      <main class="main">
+        <h1>
+          We're
+          <span>coming soon</span>
+        </h1>
+        <p>
+          Hello fellow shoppers! We're currently building our new fashion store.
+          Add your email below to stay up-to-date with announcements and our
+          launch deals.
+        </p>
+        <div class="form-container">
+          <form action="#" novalidate>
+            <input
+              class="email"
+              type="email"
+              name="email"
+              id="email"
+              aria-label="Enter email address"
+              placeholder="Email Address"
+              required
+            />
+            <svg
+              class="exclamation-circle error"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+            >
+              <g fill="none" fill-rule="evenodd">
+                <circle cx="12" cy="12" r="12" fill="#F96464" />
+                <path
+                  fill="#FFF"
+                  fill-rule="nonzero"
+                  d="M13.256 6v9.056h-2V6h2zm-.944 12.464c-.384 0-.699-.104-.944-.312a1.027 1.027 0 0 1-.368-.824c0-.33.125-.608.376-.832.25-.224.563-.336.936-.336.373 0 .68.112.92.336.24.224.36.501.36.832 0 .341-.117.616-.352.824-.235.208-.544.312-.928.312z"
+                />
+              </g>
+            </svg>
+            <small class="error">Please provide a vaild email</small>
+            <button type="submit" aria-label="submit button" class="submit-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="20">
+                <path
+                  fill="none"
+                  stroke="#FFF"
+                  stroke-width="2"
+                  d="M1 1l8.836 8.836L1 18.671"
+                />
+              </svg>
+            </button>
+          </form>
+        </div>
+      </main>
+      <footer class="footer">
+        <p class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by
+          <a href="https://github.com/KtGitIt" target="_blank">KT</a>.
+        </p>
+      </footer>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
